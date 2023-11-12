@@ -28,7 +28,7 @@ function App() {
               <span className="hidden md:flex">Sign In</span>
               <User2 />
             </button>
-            <button id="btn-open" className="sm:hidden flex items-center justify-center px-4 py-2">
+            <button id="btn-open" className="sm:hidden flex items-center justify-center gap-2 px-4 py-2">
               <Menu />
             </button>
           </div>
