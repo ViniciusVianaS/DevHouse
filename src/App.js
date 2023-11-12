@@ -24,11 +24,11 @@ function App() {
             </a>
           </nav>
           <div className="flex gap-3 items-center">
-            <button className="bg-rose-500 hover:bg-rose-600 duration-300 text-white flex items-center justify-center px-4 py-2 rounded font-medium">
+            <button className="bg-rose-500 hover:bg-rose-600 duration-300 text-white flex items-center justify-center gap-2 px-4 py-2 rounded font-medium">
               <span className="hidden md:flex">Sign In</span>
               <User2 />
             </button>
-            <button id="btn-open" className="sm:hidden flex items-center justify-center gap-2 px-4 py-2">
+            <button id="btn-open" className="sm:hidden flex items-center justify-center px-4 py-2">
               <Menu />
             </button>
           </div>

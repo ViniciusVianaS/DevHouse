@@ -1,6 +1,7 @@
 import { Map } from "lucide-react"
 
 const Main = () => {
+
     return (
         <main className="w-full flex flex-col pb-4">
             <aside className="w-full px-3 lg:px-6 ">
@@ -18,7 +19,8 @@ const Main = () => {
                                         <p className="font-medium text-sm">Fortaleza - CE</p> 
                                     </div>
                                 </div>
-                                <img src="../assets/casa1.png" alt="Primeira casa" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" />                             </div>
+                                <img className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" src="https://www.dicasdeviagem.com/wp-content/uploads/2021/02/casa-das-piscinas-airbnb-praia-do-forte.jpg" alt="primeira imagem" />                             
+                            </div>
                             <div className="w-full flex flex-col gap-1 my-2">
                                 <h2 className="text-lg font-bold">Casa na praia</h2>
                                 <div>
@@ -41,7 +43,8 @@ const Main = () => {
                                         <p className="font-medium text-sm">Fortaleza - CE</p> 
                                     </div>
                                 </div>
-                                <img src="../assets/casa1.png" alt="Primeira casa" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" />                             </div>
+                                <img src="https://catracalivre.com.br/wp-content/uploads/2018/08/casas-mais-desejadas-airbnb-brasil.png" alt="Primeira casa" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" />                             
+                            </div>
                             <div className="w-full flex flex-col gap-1 my-2">
                                 <h2 className="text-lg font-bold">Casa na praia</h2>
                                 <div>
@@ -64,7 +67,7 @@ const Main = () => {
                                         <p className="font-medium text-sm">Fortaleza - CE</p> 
                                     </div>
                                 </div>
-                                <img src="../assets/casa1.png" alt="Primeira casa" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" />                             </div>
+                                <img src="https://viagemeturismo.abril.com.br/wp-content/uploads/2021/03/Praia-do-Silvera.jpg?quality=90&strip=info&w=720&h=440&crop=1" alt="Primeira casa" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" />                             </div>
                             <div className="w-full flex flex-col gap-1 my-2">
                                 <h2 className="text-lg font-bold">Casa na praia</h2>
                                 <div>

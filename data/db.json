@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Casa de Praia",
+            "cidade-estado": "Forteleza - CE",
+            "desc": "De frente para a praia",
+            "price": 1.200,
+            "imagem": "images/casa1.png"
+          },
+          {
+            "id": 2,
+            "name": "Casa de Praia",
+            "cidade-estado": "Natal - RN",
+            "desc": "De frente para a praia",
+            "price": 1.000,
+            "imagem": "images/casa2.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Apartamento",
+            "cidade-estado": "Forteleza - CE",
+            "desc": "De frente para a praia, com uma bela vista localizado na Beira Mar",
+            "price": 2.500,
+            "imagem": "images/camisa.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Apartamento",
+            "cidade-estado": "Forteleza - CE",
+            "desc": "Em um bairro muito bem localizado e tranquilo",
+            "price": 12000,
+            "imagem": "images/camisa.jpg"
+          }
+    ]
+}
