@@ -1,9 +1,22 @@
-import { Heart, Menu, Phone, Search, User2 } from "lucide-react";
+import { Search, User2 } from "lucide-react";
 import { BrowserRouter } from "react-router-dom";
+import { useState } from 'react';
 
 import Main from "./components/Main";
+import MenuButton from "./components/MenuButton";
+import MenuMobile from "./components/MenuMobile";
 
 function App() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div>
       <BrowserRouter>
@@ -28,9 +41,8 @@ function App() {
               <span className="hidden md:flex">Sign In</span>
               <User2 />
             </button>
-            <button id="btn-open" className="sm:hidden flex items-center justify-center px-4 py-2">
-              <Menu />
-            </button>
+            <MenuButton onClick={handleMenuClick}/>
+            <MenuMobile isOpen={isMenuOpen} onClose={closeMenu}/>
           </div>
         </header>
         <Main />
