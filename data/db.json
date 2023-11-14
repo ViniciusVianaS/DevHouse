@@ -3,9 +3,9 @@
         {
             "id": 1,
             "name": "Casa de Praia",
-            "cidade-estado": "Forteleza - CE",
+            "cidade": "Forteleza - CE",
             "desc": "De frente para a praia",
-            "price": 1.200,
+            "price": 1250,
             "imagem": "images/casa1.png",
             "tamanho": 100,
             "quartos": 4,
@@ -14,9 +14,9 @@
           {
             "id": 2,
             "name": "Casa de Praia",
-            "cidade-estado": "Natal - RN",
+            "cidade": "Natal - RN",
             "desc": "De frente para a praia",
-            "price": 1.000,
+            "price": 1500,
             "imagem": "images/casa2.jpg",
             "tamanho": 100,
             "quartos": 4,
@@ -24,11 +24,11 @@
           },
           {
             "id": 3,
-            "name": "Apartamento",
-            "cidade-estado": "Forteleza - CE",
-            "desc": "De frente para a praia, com uma bela vista localizado na Beira Mar",
-            "price": 2.500,
-            "imagem": "images/camisa.jpg",
+            "name": "Casa no sitio",
+            "cidade": "São Paulo - SP",
+            "desc": "Um lugar onde você entra em contato com a natureza",
+            "price": 2500,
+            "imagem": "images/casa3.jpg",
             "tamanho": 100,
             "quartos": 4,
             "banheiros": 3
@@ -36,10 +36,10 @@
           {
             "id": 4,
             "name": "Apartamento",
-            "cidade-estado": "Forteleza - CE",
+            "cidade": "Recife - PE",
             "desc": "Em um bairro muito bem localizado e tranquilo",
             "price": 12000,
-            "imagem": "images/camisa.jpg",
+            "imagem": "images/casa4.webp",
             "tamanho": 100,
             "quartos": 4,
             "banheiros": 3
@@ -47,10 +47,10 @@
           {
             "id": 5,
             "name": "Apartamento",
-            "cidade-estado": "Forteleza - CE",
-            "desc": "Em um bairro muito bem localizado e tranquilo",
+            "cidade": "Balneário - SC",
+            "desc": "Um Apartamento de frente para praia",
             "price": 12000,
-            "imagem": "images/camisa.jpg",
+            "imagem": "images/casa5.jpg",
             "tamanho": 100,
             "quartos": 4,
             "banheiros": 3
@@ -58,10 +58,10 @@
           {
             "id": 6,
             "name": "Apartamento",
-            "cidade-estado": "Forteleza - CE",
-            "desc": "Em um bairro muito bem localizado e tranquilo",
+            "cidade": "Forteleza - CE",
+            "desc": "Um Apartamento de frente para praia",
             "price": 12000,
-            "imagem": "images/camisa.jpg",
+            "imagem": "images/casa6.webp",
             "tamanho": 100,
             "quartos": 4,
             "banheiros": 3
