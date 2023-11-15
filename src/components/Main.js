@@ -1,5 +1,6 @@
-import { Map } from "lucide-react"
-import { useFetch } from "../hooks/useFetch"
+import { Map } from "lucide-react";
+import { useFetch } from "../hooks/useFetch";
+// import { Link } from "react-router-dom";
 
 const Main = () => {
     const url = "http://localhost:3000/products"
