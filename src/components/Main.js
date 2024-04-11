@@ -1,10 +1,6 @@
 import { Map } from "lucide-react";
-import { useFetch } from "../hooks/useFetch";
-// import { Link } from "react-router-dom";
 
 const Main = () => {
-    const url = "http://localhost:3000/products"
-    const { data: items, loading, error } = useFetch(url)
 
     return (
         <main className="w-full flex flex-col pb-4">
@@ -14,35 +10,81 @@ const Main = () => {
                     <span className="hidden md:block text-gray-600">Casas encontradas</span>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {loading && <p>Carregando dados...</p>}
-                    {error && <p>{error}</p>}
-                    {items &&
-                        items.map((item) => (
-                            <a href="#" key={item.id} className="bg-white p-3 rounded-lg min-h-[400px] relative flex flex-col hover:shadow-lg duration-300">
+                    <a href="#" className="bg-white p-3 rounded-lg min-h-[400px] relative flex flex-col hover:shadow-lg duration-300">
+                        <div>
+                            <div className="group overflow-hidden rounded-lg">
+                                <div className="absolute z-40 top-5 left-5">
+                                    <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
+                                        <Map />
+                                        <p className="font-medium text-sm"></p>
+                                    </div>
+                                </div>
+                                <img src="/images/casa1.png" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300"/>
+                            </div>
+                            <div className="w-full flex flex-col gap-1 my-2">
+                                <h2 className="text-lg font-bold"></h2>
                                 <div>
-                                    <div className="group overflow-hidden rounded-lg">
-                                        <div className="absolute z-40 top-5 left-5">
-                                            <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
-                                                <Map />
-                                                <p className="font-medium text-sm">{item.cidade}</p>
-                                            </div>
-                                        </div>
-                                        <img className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300" src={process.env.PUBLIC_URL + '/' + item.imagem} alt={item.name} />
-                                    </div>
-                                    <div className="w-full flex flex-col gap-1 my-2">
-                                        <h2 className="text-lg font-bold">{item.name}</h2>
-                                        <div>
-                                            <p className="text-sm font-bold text-indigo-500 my-1">R$ {item.price}/mês</p>
-                                        </div>
+                                    <p className="text-sm font-bold text-indigo-500 my-1">5000 R$/mês</p>
+                                </div>
+                            </div>
+                            <button className="bg-rose-500 hover:bg-rose-600 duration-300 p-1 text-white flex items-center justify-center rounded font-medium">alugar</button>
+                        </div>
+                        <div className="mt-auto">
+                            <span className="font-medium text-sm">1200 metros - </span>
+                            <span className="font-medium text-sm">4 quartos - </span>
+                            <span className="font-medium text-sm">2 banheiros</span>
+                        </div>
+                    </a>
+                    <a href="#" className="bg-white p-3 rounded-lg min-h-[400px] relative flex flex-col hover:shadow-lg duration-300">
+                        <div>
+                            <div className="group overflow-hidden rounded-lg">
+                                <div className="absolute z-40 top-5 left-5">
+                                    <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
+                                        <Map />
+                                        <p className="font-medium text-sm"></p>
                                     </div>
                                 </div>
-                                <div className="mt-auto">
-                                    <span className="font-medium text-sm">{item.tamanho} metros - </span>
-                                    <span className="font-medium text-sm">{item.quartos} quartos -</span>
-                                    <span className="font-medium text-sm">{item.banheiros} banheiros</span>
+                                <img src="/images/casa2.jpg" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300"/>
+                            </div>
+                            <div className="w-full flex flex-col gap-1 my-2">
+                                <h2 className="text-lg font-bold"></h2>
+                                <div>
+                                    <p className="text-sm font-bold text-indigo-500 my-1">5000 R$/mês </p>
                                 </div>
-                            </a>
-                        ))}
+                            </div>
+                            <button className="bg-rose-500 hover:bg-rose-600 duration-300 p-1 text-white flex items-center justify-center rounded font-medium">alugar</button>
+                        </div>
+                        <div className="mt-auto">
+                            <span className="font-medium text-sm">1200 metros - </span>
+                            <span className="font-medium text-sm">3 quartos - </span>
+                            <span className="font-medium text-sm">2 banheiros</span>
+                        </div>
+                    </a>
+                    <a href="#" className="bg-white p-3 rounded-lg min-h-[400px] relative flex flex-col hover:shadow-lg duration-300">
+                        <div>
+                            <div className="group overflow-hidden rounded-lg">
+                                <div className="absolute z-40 top-5 left-5">
+                                    <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
+                                        <Map />
+                                        <p className="font-medium text-sm"></p>
+                                    </div>
+                                </div>
+                                <img src="/images/casa3.jpg" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300"/>
+                            </div>
+                            <div className="w-full flex flex-col gap-1 my-2">
+                                <h2 className="text-lg font-bold"></h2>
+                                <div>
+                                    <p className="text-sm font-bold text-indigo-500 my-1">5000 R$/mês</p>
+                                </div>
+                            </div>
+                            <button className="bg-rose-500 hover:bg-rose-600 duration-300 p-1 text-white flex items-center justify-center rounded font-medium">alugar</button>
+                        </div>
+                        <div className="mt-auto">
+                            <span className="font-medium text-sm">1200 metros - </span>
+                            <span className="font-medium text-sm">4 quartos - </span>
+                            <span className="font-medium text-sm">3 banheiros</span>
+                        </div>
+                    </a>
                 </div>
             </aside>
         </main>

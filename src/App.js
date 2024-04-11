@@ -1,6 +1,5 @@
 import { Search, User2 } from "lucide-react";
-// import { BrowserRouter } from "react-router-dom";
-import { useState } from 'react';
+import { useState } from 'react'
 
 import Main from "./components/Main";
 import MenuButton from "./components/MenuButton";
