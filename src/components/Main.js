@@ -16,18 +16,17 @@ const Main = () => {
                                 <div className="absolute z-40 top-5 left-5">
                                     <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
                                         <Map />
-                                        <p className="font-medium text-sm"></p>
+                                        <p className="font-medium text-sm">Fernando de Noronha - PE</p>
                                     </div>
                                 </div>
                                 <img src="/images/casa1.png" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300"/>
                             </div>
                             <div className="w-full flex flex-col gap-1 my-2">
-                                <h2 className="text-lg font-bold"></h2>
+                                <h2 className="text-lg font-bold">Casa de Praia</h2>
                                 <div>
                                     <p className="text-sm font-bold text-indigo-500 my-1">5000 R$/mês</p>
                                 </div>
                             </div>
-                            <button className="bg-rose-500 hover:bg-rose-600 duration-300 p-1 text-white flex items-center justify-center rounded font-medium">alugar</button>
                         </div>
                         <div className="mt-auto">
                             <span className="font-medium text-sm">1200 metros - </span>
@@ -41,18 +40,17 @@ const Main = () => {
                                 <div className="absolute z-40 top-5 left-5">
                                     <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
                                         <Map />
-                                        <p className="font-medium text-sm"></p>
+                                        <p className="font-medium text-sm">Fortaleza - CE</p>
                                     </div>
                                 </div>
                                 <img src="/images/casa2.jpg" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300"/>
                             </div>
                             <div className="w-full flex flex-col gap-1 my-2">
-                                <h2 className="text-lg font-bold"></h2>
+                                <h2 className="text-lg font-bold">Casa de Praia</h2>
                                 <div>
                                     <p className="text-sm font-bold text-indigo-500 my-1">5000 R$/mês </p>
                                 </div>
                             </div>
-                            <button className="bg-rose-500 hover:bg-rose-600 duration-300 p-1 text-white flex items-center justify-center rounded font-medium">alugar</button>
                         </div>
                         <div className="mt-auto">
                             <span className="font-medium text-sm">1200 metros - </span>
@@ -66,18 +64,17 @@ const Main = () => {
                                 <div className="absolute z-40 top-5 left-5">
                                     <div className="flex bg-slate-50/70 group-hover:bg-white duration-300 self-start items-center justify-center gap-2 px-3 py-1 rounded-full">
                                         <Map />
-                                        <p className="font-medium text-sm"></p>
+                                        <p className="font-medium text-sm">São Paulo - SP</p>
                                     </div>
                                 </div>
                                 <img src="/images/casa3.jpg" className="rounded-lg w-full h-64 object-cover group-hover:scale-110 duration-300"/>
                             </div>
                             <div className="w-full flex flex-col gap-1 my-2">
-                                <h2 className="text-lg font-bold"></h2>
+                                <h2 className="text-lg font-bold">Casa no Sítio</h2>
                                 <div>
                                     <p className="text-sm font-bold text-indigo-500 my-1">5000 R$/mês</p>
                                 </div>
                             </div>
-                            <button className="bg-rose-500 hover:bg-rose-600 duration-300 p-1 text-white flex items-center justify-center rounded font-medium">alugar</button>
                         </div>
                         <div className="mt-auto">
                             <span className="font-medium text-sm">1200 metros - </span>
