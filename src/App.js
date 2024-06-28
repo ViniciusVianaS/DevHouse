@@ -1,6 +1,7 @@
 import { Search, User2 } from "lucide-react";
 import { useState } from 'react'
 
+// import components
 import Main from "./components/Main";
 import MenuButton from "./components/MenuButton";
 import MenuMobile from "./components/MenuMobile";
